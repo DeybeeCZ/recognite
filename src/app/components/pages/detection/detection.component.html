@@ -1,0 +1,10 @@
+<div id="miCameraOnline" class="row justify-content-md-center">
+    <div class="col-6 cont6">
+        <video id="video" [src]="video_src"></video>
+        <button id="myButton" type="button" class="btn btn-outline-danger" (click)="takePhoto()"><i class="fas fa-camera"></i></button>
+    </div>
+    <div class="col-3">
+        <canvas id="myCambas"></canvas>
+        <img [src]="imageData" alt="" />
+    </div>
+</div>
